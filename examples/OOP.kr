@@ -1,0 +1,13 @@
+struct ExampleStruct    'declare class'
+{
+    
+}
+{                                  'class body definition'
+    let xmplNumProperty: Num::int::bit32;
+    let xmplTxtProperty: Text::str;
+    __printstr__ = "This ExampleClass object's numeric property is
+                    {xmplNumProperty} and its text property is
+    				{xmplTxtProperty}.";
+}
+
+let exampleObj: ExampleClass = ExampleClass(88, "I'm an example!");
