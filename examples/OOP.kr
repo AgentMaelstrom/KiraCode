@@ -1,13 +1,27 @@
-struct ExampleStruct    'declare class'
-{
-    
-}
-{                                  'class body definition'
-    let xmplNumProperty: Num::int::bit32;
-    let xmplTxtProperty: Text::str;
-    __printstr__ = "This ExampleClass object's numeric property is
-                    {xmplNumProperty} and its text property is
-    				{xmplTxtProperty}.";
+'examples/OOP.kr
+ KiraCode Object Oriented Programming examples'
+
+'__ Struct Definition __'
+
+'Documentation is important!
+ 
+ This is the example struct in the documentation for KiraCode OOP examples'
+struct ExampleStruct {
+    exampleNum: Num::int::bit32,
+    exampleText: Text::str,
 }
 
-let exampleObj: ExampleClass = ExampleClass(88, "I'm an example!");
+'__ Struct Implementation __'
+
+impl ExampleStruct {
+    fun new(num: int::bit32, text: str) -> ExampleStruct {
+        ExampleStruct { exampleNum: num, exampleText: text }
+    }
+}
+impl PrintString for ExampleStruct { 
+    fun PrintString(self: ExampleStruct) {
+        ("This ExampleStruct's number is {self::exampleNum} and its text is {self::exampleText}.")
+    }
+}
+
+let exampleObj: ExampleStruct = ExampleStruct::new(88, "I'm an example!");

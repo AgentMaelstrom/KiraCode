@@ -1,0 +1,17 @@
+{
+  "contributes": {
+    "languages": [
+      {
+        "id": "kiracode",
+        "extensions": [".kr"]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "KiraCode",
+        "scopeName": "source.kiracode",
+        "path": "./syntaxes/kiracode.tmGrammar.json"
+      }
+    ]
+  }
+}
