@@ -27,6 +27,8 @@ enum Status {
     Bad(&'static str),
 }
 
+// --------
+
 /// ## Args Enum
 ///
 /// An enum for the command line arguments.
@@ -75,6 +77,37 @@ enum Args {
 /// }
 /// ```
 
+// --------
+
+/// ## args_help Function
+///
+/// Returns the help string for the compiler command.
+///
+/// ### Parameters
+/// -
+///
+/// ### Returns
+/// #### Return Type
+/// String
+///
+/// #### Return Values
+/// \*Too Long
+///
+/// ### Body
+/// ```
+/// let help_intro_string: String = String::from(
+///     "\n`kiracode` command - help documentation\nVersion 0\n\n"
+/// );
+/// let help_outro_string: String = String::from(
+///     "For more specific help on a command, use `kiracode --help <command>`\nTo open online documentation, use flag `--online` alongside `--help` flag\n"
+/// );
+///
+/// let final_string: String = help_intro_string + option_args_help() + sub_commands_help() + help_outro_string;
+///
+/// final_string
+/// ```
+fn args_help() -> String {}
+
 // ----------------
 
 // __ MAIN __
@@ -85,6 +118,7 @@ enum Args {
 fn main() {
     // __ Constants __
     pub const VERSION: i32 = 0;
+    pub const ARGS_HELP: String = args_help();
 
     // &args[0] is the path of the file or the name of the command
     let args: Vec<String> = env::args().collect();
