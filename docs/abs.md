@@ -20,10 +20,10 @@ An "_Abstract Syntax Tree_" is a branching flowchart-like tree of tokens for a c
 $$
 \begin{align}
   [\text{prog}]
-  \to
+  &\to
   \begin{cases}
     [\text{expr}]
-    \to
+    &\to
     \begin{cases}
       [\text{ltrl}]
       \\\\
