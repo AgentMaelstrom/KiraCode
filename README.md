@@ -2,13 +2,13 @@
 
 Hi!
 
-KiraCode is my first attempt at  a *working* custom programming language.
+KiraCode is my first attempt at a _working_ custom programming language.
 
 ---
 
 > ## **WIP**
 >
-> This project is ***entirely*** not finished yet. In fact, it has barely been started.
+> This project is **_entirely_** not finished yet. In fact, it has barely been started.
 
 ---
 
