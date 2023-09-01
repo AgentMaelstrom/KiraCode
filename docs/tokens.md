@@ -63,4 +63,6 @@ Here is a list of currently imagined tokens:
 - `kc.token.prog.oper.logc.lteq`
 - `kc.token.prog.oper.logc.gt`
 - `kc.token.prog.oper.logc.gteq`
+- `kc.token.prog.oper.logc.and`
+- `kc.token.prog.oper.logc.or`
 - `kc.token.prog.oper.logc.not`

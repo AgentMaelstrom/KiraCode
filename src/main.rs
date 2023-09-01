@@ -1,16 +1,26 @@
-/// # main.rs
+/// # main.rs File
 ///
-/// This is the main file for the KiraCode compiler, version 0.
-
+/// This is the main file for the KiraCode compiler, version 'test0'.
 // ---
 
-// __ Imports __
+// Imports
 use std::env;
+
+// Internal Module Imports
+mod generate;
+mod parse;
+mod tokenise;
+
+use generate::*;
+use parse::*;
+use tokenise::*;
+
+// ---
 
 /// ## main -> () Function
 ///
 /// The main function of the compiler program.
-fn main() {
+fn main() -> () {
     // __ Constants __
     static VERSION: &str = "test0";
 

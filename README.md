@@ -25,4 +25,6 @@ You can find the documentation for KiraCode [here](./docs/introduction.md).
 ## Source
 
 - [main.rs](./src/main.rs)
-- [main.rs](./src/main.rs)
+- [tokenise.rs](./src/tokenise.rs)
+- [parse.rs](./src/parse.rs)
+- [generate.rs](./src/generate.rs)
