@@ -96,7 +96,11 @@ impl Tokeniser {
         Self { src: src_string }
     }
 
-    pub fn peek(&self) -> Option<Token> {
+    pub fn peek(&self, step: usize) -> Option<Token> {
+        panic!("Unimplemented method: peek()");
+    }
+
+    pub fn consume(&self) -> Option<Token> {
         panic!("Unimplemented method: peek()");
     }
 }

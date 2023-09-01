@@ -12,6 +12,7 @@ An "_Abstract Syntax Tree_" is a branching flowchart-like tree of tokens for a c
 
 - [Introduction](./introduction.md)
 - [Tokens](./tokens.md)
+- [Usage](./usage.md)
 
 ---
 

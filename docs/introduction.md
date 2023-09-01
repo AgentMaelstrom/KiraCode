@@ -6,6 +6,7 @@ Welcome to the KiraCode documentation.
 
 - [Tokens](./tokens.md)
 - [Abstract Syntax Tree](./abs.md)
+- [Usage](./usage.md)
 
 ## README
 

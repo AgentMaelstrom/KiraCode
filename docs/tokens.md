@@ -6,6 +6,7 @@ KiraCode has mainly expression-based tokens.
 
 - [Introduction](./introduction.md)
 - [Abstract Syntax Tree](./abs.md)
+- [Usage](./usage.md)
 
 ## Currently Imagined Tokens
 

@@ -27,5 +27,9 @@ fn main() -> () {
     // &args[0] is the path of the file or the name of the command
     let args: Vec<String> = env::args().collect();
 
-    dbg!(args);
+    dbg!(&args);
+
+    if args.len() != 2 {
+        println!(" \nIncorrect arguments. \nExpected <input.kr> \n");
+    }
 }
