@@ -21,3 +21,8 @@ KiraCode is my first attempt at a _working_ custom programming language.
 ## Documentation
 
 You can find the documentation for KiraCode [here](./docs/introduction.md).
+
+## Source
+
+- [main.rs](./src/main.rs)
+- [main.rs](./src/main.rs)
